@@ -25,7 +25,7 @@ As CIDER derives almost all of its functionality by inspecting the runtime (REPL
 of your application, you need to evaluate something before functionality like code completion,
 `eldoc` or definition lookup would work.
 
-Typically the first think you'd do when visiting a Clojure buffer would be to load (evaluate) the buffer with `cider-load-buffer` (kbd:[C-c C-k]).
+Typically the first thing you'd do when visiting a Clojure buffer would be to load (evaluate) the buffer with `cider-load-buffer` (kbd:[C-c C-k]).
 
 Afterwards most of the time you'd be evaluating expressions one at a time either using
 `cider-eval-last-sexp` (kbd:[C-c C-e] or kbd:[C-x C-e]) or `cider-eval-defun-at-point`
